@@ -3,14 +3,14 @@
 * Sat 3 Oct 5 AM :)
 */
 
-function reverseArr(arr) {
+function reverse(A) {
     var toString = JSON.stringify(arr);
     var newString = '';
     for(var x = toString.length - 1; x > 0; x--) {
         newString = newString + toString[x];
     }
     // [1,2,3,4]
-    console.log(newString)
+    // console.log(newString)
     return newString.replace(/([\[|\]|\,)/g, '').split('');
 }
-console.log(reverseArr([1,2,3,4,5,6]))
+console.log(reverse([1,2,3,4,5,6]))
