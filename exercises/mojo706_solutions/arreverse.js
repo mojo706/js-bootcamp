@@ -4,10 +4,10 @@
 */
 
 function reverse(A) {
-    var toString = JSON.stringify(arr);
+    var toString = JSON.stringify(A);
     var newString = '';
     for(var x = toString.length - 1; x > 0; x--) {
-        newString = newString + toString[x];
+        newString += toString[x];
     }
     // [1,2,3,4]
     // console.log(newString)
