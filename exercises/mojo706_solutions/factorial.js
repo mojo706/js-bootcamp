@@ -10,7 +10,7 @@ function factorial(n)
     }
     // Otherwise, call this recursive procedure again.
     else {
-        return (n * factorialize(n - 1));
+        return (n * factorial(n - 1));
     }
 }
-factorialize(5);
+factorial(5);
